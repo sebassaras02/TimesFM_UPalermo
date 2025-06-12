@@ -7,6 +7,8 @@ COPY src/ ./src
 RUN pip install uv
 RUN uv pip install --system -r requirements.txt
 
+ENV HF_HOME=/app/cache
+
 EXPOSE 8501
 
 HEALTHCHECK CMD curl --fail http://localhost:8501/_stcore/health
