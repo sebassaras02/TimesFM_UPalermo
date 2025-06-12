@@ -14,4 +14,8 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://${{ secrets.HF_USERNAME }}:$HF_TOKEN@huggingface.co/spaces/${{ secrets.HF_USERNAME }}/${{ secrets.SPACE_NAME }} main
+        run: 
+          git config user.name "${{ secrets.HF_USERNAME }}"
+          git config user.email "${{ secrets.HF_USERNAME }}@users.noreply.huggingface.co"
+          git pull https://${{ secrets.HF_USERNAME }}:$HF_TOKEN@huggingface.co/spaces/${{ secrets.HF_USERNAME }}/${{ secrets.SPACE_NAME }} main --rebase
+          git push https://${{ secrets.HF_USERNAME }}:$HF_TOKEN@huggingface.co/spaces/${{ secrets.HF_USERNAME }}/${{ secrets.SPACE_NAME }} main
