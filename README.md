@@ -1,5 +1,6 @@
 ---
 title: TimesFM UPalermo
+app_port: 8501
 emoji: 👁
 colorFrom: gray
 colorTo: purple
