@@ -6,7 +6,7 @@ Este repo contiene el código y los notebooks necesarios para el demo presentado
 
 El modelo implementado [TimesFM](https://research.google/blog/a-decoder-only-foundation-model-for-time-series-forecasting/) fue desarrollado en una arquitectura tipo decoder-only similar a grandes modelos de lenguaje (LLMs).
 
-Este repositorio contiene lo necesario, para revisar la aplicación montanda en HuggingFace Spaces[LINK][].
+Este repositorio contiene lo necesario, para revisar la aplicación montanda en [HuggingFace Spaces]().
 
 
 ## ☕ Support the Project
