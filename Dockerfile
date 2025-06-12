@@ -5,7 +5,7 @@ COPY requirements.txt requirements.txt
 COPY src/ src/
 
 RUN pip install uv
-RUN uv pip install -r requirements.txt
+RUN uv pip install --system -r requirements.txt
 
 EXPOSE 8501
 
