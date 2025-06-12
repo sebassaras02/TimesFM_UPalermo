@@ -2,7 +2,7 @@ FROM python:3.11-slim
 
 WORKDIR /app
 COPY requirements.txt requirements.txt
-COPY src/ .
+COPY src/ ./src
 
 RUN pip install uv
 RUN uv pip install --system -r requirements.txt
