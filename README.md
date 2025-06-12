@@ -7,6 +7,7 @@ colorTo: purple
 sdk: docker
 pinned: false
 license: mit
+models: google/timesfm-2.0-500m-pytorch
 short_description: Modelos fundacionales para series de tiempo
 ---
 
