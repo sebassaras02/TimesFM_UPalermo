@@ -5,16 +5,16 @@ from model import get_model
 from utils import get_bitcoin_history_yf, process_dataframe, predict_timesfm
 
 
-st.title("Foundational Models para Series de Tiempo", anchor=None, help=None)
+st.title("Foundational Models para Series de Tiempo: Aplicación Bitcoin", anchor=None, help=None)
 st.header("Creado por: Sebastian Sarasti", divider="gray")
 st.markdown("More about me: [LinkedIn](https://www.linkedin.com/in/sebastiansarasti/)")
 st.markdown("**Conferencia:** Universidad de Palermo")
 
-st.markdown("Esta aplicación permite explorar modelos de series de tiempo utilizando modelos fundacionales basados en Transformers. El modelo fundacional seleccionado es TimesFM, fue desarrollado por Google. ")
+st.markdown("Esta aplicación permite explorar modelos de series de tiempo utilizando modelos fundacionales basados en Transformers. El modelo fundacional seleccionado es TimesFM, fue desarrollado por Google. Este modelo busca predecir los precios futuros de Bitcoin.")
 
 st.markdown("**¿Cómo funciona?**")
 
-st.markdown("1. **Selecciona las fechas**: Elige el rango de fechas para el cual deseas predecir los precios de Bitcoin.")
+st.markdown("1. **Selecciona las fechas**: Elige el rango de fechas para el cual deseas entrenar el modelo, mientras más mejor.")
 st.markdown("2. **Selecciona la ventana de forecast**: Permite configurar el modelo para predecir el horizonte de tiempo deseado.")
 st.markdown("3. **Ejecuta el modelo**: Haz clic en el botón para ejecutar el modelo y obtener las predicciones.")
 
