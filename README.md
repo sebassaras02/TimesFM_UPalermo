@@ -1,3 +1,14 @@
+---
+title: TimesFM UPalermo
+emoji: 👁
+colorFrom: gray
+colorTo: purple
+sdk: docker
+pinned: false
+license: mit
+short_description: Modelos fundacionales para series de tiempo
+---
+
 # Modelos Fundacionales para Series de tiempo
 
 Este repo contiene el código y los notebooks necesarios para el demo presentado en la conferencia "El Lenguaje de las Series de Tiempo" en la Universidad de Palermo, Argentina.
